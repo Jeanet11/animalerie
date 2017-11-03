@@ -17,7 +17,7 @@ class Animalerie {
 
     public function afficherTousAnimaux() {
        foreach($this->animaux as $animal) {
-        echo "Je m'appelle ".$animal->getNom().", je suis un ".strtolower(get_Class($animal))." et je fais ".$animal->parler().".<br>"; 
+        echo "<div>".$animal." et je fais ".$animal->parler()."</div><br>"; 
         }
     }
 
